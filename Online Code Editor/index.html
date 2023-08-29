@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Code Editor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bedad8c582.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div>
+                <div class="title">
+                    <label><i class="fa-brands fa-html5"></i>html</label>
+                    <div class="buttons">
+                        <button onclick="save()">Save</button>
+                        <button class="clear" onclick="clearHtml()">clear</button>
+                    </div>
+                </div>
+                <textarea id="htmlCodeEl"></textarea>
+                
+            </div>
+            <div>
+                <div class="title">
+                    <label><i class="fa-brands fa-css3-alt" style="color: #fdfcfc;"></i>css</label>
+                    
+                    <div class="buttons">
+                        <button onclick="save()">Save</button>
+                        <button class="clear" onclick="clearCss()">clear</button>
+                    </div>
+                </div>
+                <textarea id="cssCodeEl"></textarea>
+                
+            </div>
+            <div>
+                <div class="title">
+                    <label><i class="fa-brands fa-square-js" style="color: #ffffff;"></i>JavaScript</label>
+                    <div class="buttons">
+                    <button onclick="save()">Save</button>
+                    <button class="clear" onclick="clearJs()">clear</button>
+                    </div>
+                </div>
+                <textarea id="jsCodeEl"></textarea>
+                
+            </div>
+        </div>
+        <div class="right">
+            <label onclick="run()"><i class="fa-solid fa-play"></i>Output</label>
+            <iframe id="output"></iframe>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
