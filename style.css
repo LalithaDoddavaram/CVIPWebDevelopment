@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgba(9, 42, 99, 0.74);
+    margin-top: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+body {
+    background-color: rgba(3, 19, 48, 0.74);
+    color: rgb(245, 239, 214);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 13px auto;
+    margin-top: 0;
+    width: 90%;
+    height: 5vw;
+    margin-bottom: 0;
+}
+
+.nav-heading {
+    margin-left: 60px;
+    font-size: 30px;
+    color: rgb(0, 255, 234);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-heading span {
+    color: rgb(174, 247, 243);
+}
+
+.nav-items {
+    display: flex;
+    width: 60%;
+}
+
+.nav-items a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 4rem;
+
+     font-size: 18px;
+}
+
+.nav-item :hover {
+    color: rgb(72, 225, 245);
+    border-bottom: 3px solid rgb(72, 225, 245);
+}
+
+
+.intro-text {
+    font-size: 30px;
+    margin: 20px 20px 20px 0;
+}
+
+.intro-text-container{
+    max-width:50%;
+    
+}
+
+.intro-desc {
+    font-size: 20px;
+}
+
+.intro-container {
+    display: flex;
+    width: 80%;
+    margin: 4rem auto;
+    margin-top: 8rem;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.intro-img {
+    text-align: right;
+}
+
+.intro-container img{
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    box-shadow: 0 0 15px 5px rgb(116, 255, 255);
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.text {
+    color: aqua;
+    font-weight: bold;
+}
+
+
+@keyframes  example{
+    0%   {box-shadow: 0 0 15px 5px rgb(255, 123, 237)}
+    25%  {box-shadow: 0 0 15px 5px rgb(138, 255, 255)}
+    50%  {box-shadow: 0 0 15px 5px rgb(136, 255, 136)}
+    75%  {box-shadow: 0 0 15px 5px rgb(110, 214, 255)}
+    100% {box-shadow: 0 0 15px 5px rgb(222, 115, 255)}
+  }
+
+
+.icons-container svg {
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.download-button {
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "sans-serif";
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(81, 168, 184);
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+svg {
+    border-radius: 10px;
+    padding: 0;
+    box-shadow: 0 0 15px 2px rgba(226, 253, 255, 0.986);
+    background-color: rgba(88, 95, 95, 0);
+    cursor: pointer;
+}
+
+.intro-name{
+    font-size: 40px;
+    color: aquamarine;
+    text-shadow: 0 0 1rem rgba(83, 244, 255, 0.986);
+}
+
+.skills-section {
+    margin: 40px;
+    margin-left: 8rem;
+}
+
+h2 {
+    font-size: 40px;
+    color: rgb(0, 255, 234);    
+    margin: 45px;
+    margin-left: 0;
+}
+
+.skills-section h3 {
+    color: rgb(181, 224, 224);
+    font-size: 30px;
+    margin-bottom: 28px;
+}
+
+.skills-section li {
+    list-style: square;
+    margin: 20px;
+    margin-left: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.projects-section {
+    margin: 40px;
+    margin-left: 8rem;
+}
+
+h2 {
+    font-size: 40px;
+    color: rgb(0, 255, 234);    
+    margin: 45px;
+    margin-left: 0;
+}
+
+.projects-section h3 {
+    color: rgb(181, 224, 224);
+    font-size: 30px;
+    margin-bottom: 28px;
+}
+
+.projects-section li {
+    list-style: square;
+    margin: 20px;
+    margin-left: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#contactSection {
+    margin-left: 8rem;
+}
+
+#contactSection div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#contactSection h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#contactSection svg {
+    box-shadow: none;
+    margin: 20px;
+    margin-left: 0;
+}
