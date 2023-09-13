@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Shortener</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-container">
+        <div class="inner-container">
+            <h1 class="heading">URL Shortener</h1>
+            <p class="paragraph">Free URL shortener for transforming long, difficult links into nice, memorale and trackable URLs in just one click</p>
+            <label class="input-label">Enter your URL below: </label>
+            <br>
+            <div class="ip">
+                <input id="userInput" class="user-input" type="text" placeholder="Enter your link to shorten">
+            </div>
+            <br>
+            <button id="submitBtn" class="submit-btn">Shorten Link</button>
+            <div class="result-container displayer" id="resultContainer">
+                <p id="displayResult"></p>
+                <p id="svge"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-copy" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V2Zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H6ZM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1H2Z"/>
+                  </svg></p>
+            </div>  
+        </div>
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
